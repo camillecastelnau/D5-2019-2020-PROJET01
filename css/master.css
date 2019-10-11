@@ -1,0 +1,57 @@
+body{
+  background-color: #FFFFFF
+}
+
+
+
+header {
+  text-align: center;
+  padding: 0.2em;
+}
+
+.column-content {
+  display: flex;
+}
+
+
+h1 {
+  font-size: 50pt;
+  color: #6C333E
+}
+
+h2 {
+  font-size: 40pt;
+  color: #6C333E
+}
+
+p{
+text-align: justify;
+color: #031D4D
+}
+
+
+
+.bloc{
+  column-count: 2;
+  max-width: 70em;
+  text-align: justify;
+  min-height: 300px;
+  grid-column-gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.intro{
+  padding: 4em 0;
+
+  max-width: 50em;
+  text-align;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.fin{
+  font-weight:bold;
+}
